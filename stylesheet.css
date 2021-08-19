@@ -1,0 +1,103 @@
+
+html,body,main{
+    margin: 0 auto;
+    padding: 0;
+    width: 80vw;
+    font-family: 'Hiragino Mincho ProN', serif;
+    font-size: 100%;
+}*{
+    box-sizing:border-box;
+  }
+
+h1{
+    position: absolute;
+    font-size: 9.4vw;
+    /*mix-blend-mode: overlay;*/
+}
+
+#title0{
+    top: -2vw;
+    left: -8vw;
+}
+#title1{
+    top: 48%;
+    right: -8vw;
+}
+
+h2{
+    border-bottom: solid 2px gray;
+    font-size: 3vw;
+}
+
+p{
+    text-align: center;
+    font-size: 2vw;
+}
+
+.about{
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    position: relative;
+}
+
+.about img{
+    width: 100%;
+}
+
+.pc { display: block !important; }
+.sp { display: none !important; }
+
+.gowork{
+    display: flex;
+    flex-wrap : wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.gowork li{
+    width: 30%;
+    height: auto;
+    margin: 1%;
+}
+
+.gowork img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+}
+
+ul{
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .about{
+        height: 70vh;
+    }
+    h1{
+        position: absolute;
+        font-size: 7vh;
+    /*mix-blend-mode: overlay;*/
+    }
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+    #title1{
+        top: 70%;
+        right: -8vw;;
+        /*position: fixed;*/
+    }
+    .gowork li{
+         width: 100%;
+         margin-top: 10vw;
+    }
+}
+
+
+.last{
+    margin-top: 10vw;
+    height: 10vw;
+}
+
